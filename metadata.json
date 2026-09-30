@@ -1,0 +1,6 @@
+{
+  "name": "VeloFleet Ops",
+  "description": "Enterprise Car Rental & Cab Operations Platform with end-to-end booking lifecycle, dispatch board, driver duty console, GPS telemetry, rate cards, and billing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

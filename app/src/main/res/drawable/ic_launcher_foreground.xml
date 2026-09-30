@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center group at 66dp safe zone (21dp margin on 108dp canvas) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Shield / Badge outline -->
+        <path
+            android:fillColor="#1A00E5FF"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="2.5"
+            android:pathData="M54,23 L76,33 L76,57 C76,71 54,83 54,83 C54,83 32,71 32,57 L32,33 Z" />
+        
+        <!-- Sleek luxury sedan silhouette -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M39,57 C39,55.5 40.2,54.2 41.8,53.8 L46,50.2 C47.2,47.8 49.5,46 52,46 L56,46 C58.5,46 60.8,47.8 62,50.2 L66.2,53.8 C67.8,54.2 69,55.5 69,57 L69,63 C69,64 68.2,64.8 67.2,64.8 L66.5,64.8 C65.5,64.8 64.7,64 64.7,63 L64.7,62 L43.3,62 L43.3,63 C43.3,64 42.5,64.8 41.5,64.8 L40.8,64.8 C39.8,64.8 39,64 39,63 Z" />
+        
+        <!-- Windshield -->
+        <path
+            android:fillColor="#0A192F"
+            android:pathData="M46.8,53.2 L48.8,49.2 C49.2,48.4 50,47.8 51,47.8 L57,47.8 C58,47.8 58.8,48.4 59.2,49.2 L61.2,53.2 Z" />
+        
+        <!-- Headlights -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M41.5,58 A1.5,1.5 0 1,0 44.5,58 A1.5,1.5 0 1,0 41.5,58 Z" />
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M63.5,58 A1.5,1.5 0 1,0 66.5,58 A1.5,1.5 0 1,0 63.5,58 Z" />
+        
+        <!-- Speed indicators / Fleet beacon -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M52,38 L56,38 L55,42 L53,42 Z" />
+    </group>
+</vector>
